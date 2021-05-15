@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".seller.SignInSellerFragment"
+    android:orientation="vertical"
+    >
+
+    <ImageButton
+        android:id="@+id/img_btn_close_sign_in_seller"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back"
+        android:background="@android:color/white"
+        android:layout_margin="5dp"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/sellerlogin"
+        android:layout_margin="5dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seller Login Form"
+        android:textSize="23sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        />
+
+
+    <EditText
+        android:id="@+id/edit_txt_email_sign_in_seller"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Email"
+        android:textColorHint="@android:color/black"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:backgroundTint="@android:color/black"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:id="@+id/edit_txt_password_sign_in_seller"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Password"
+        android:textColorHint="@android:color/black"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:backgroundTint="@android:color/black"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:id="@+id/btn_sign_in_seller"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:textSize="19sp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_blue_dark"
+        />
+
+</LinearLayout>
